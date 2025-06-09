@@ -1,0 +1,140 @@
+{
+    "node_labels": [
+        "item",
+        "material",
+        "category",
+        "culture",
+        "place",
+        "type",
+        "donor",
+        "glossary",
+        "measurement",
+        "date",
+        "title",
+        "period",
+        "artist",
+        "description",
+        "inscription",
+        "museum",
+        "images"
+    ],
+    "node_properties": {
+        "item": ["itemId", "title", "url"],
+        "material": ["value"],
+        "category": ["value"],
+        "culture": ["value"],
+        "place": ["value"],
+        "type": ["value"],
+        "donor": ["value"],
+        "glossary": ["value"],
+        "measurement": ["value"],
+        "date": ["value"],
+        "title": ["value"],
+        "period": ["value"],
+        "artist": ["value"],
+        "description": ["value"],
+        "inscription": ["value"],
+        "museum": ["value"],
+        "images": ["value"]
+    },
+    "relationship_types": [
+        "材质",
+        "类别",
+        "文化",
+        "制作地点",
+        "对象类型",
+        "捐赠来源",
+        "材料术语",
+        "尺寸",
+        "制作时间",
+        "时期",
+        "创作者",
+        "描述",
+        "题跋",
+        "博物馆",
+        "图片",
+        "名称"
+    ],
+    "relationship_structure": [
+        {
+            "relationship_type": "材质",
+            "from_labels": ["item"],
+            "to_labels": ["material"]
+        },
+        {
+            "relationship_type": "类别",
+            "from_labels": ["item"],
+            "to_labels": ["category"]
+        },
+        {
+            "relationship_type": "文化",
+            "from_labels": ["item"],
+            "to_labels": ["culture"]
+        },
+        {
+            "relationship_type": "制作地点",
+            "from_labels": ["item"],
+            "to_labels": ["place"]
+        },
+        {
+            "relationship_type": "对象类型",
+            "from_labels": ["item"],
+            "to_labels": ["type"]
+        },
+        {
+            "relationship_type": "捐赠来源",
+            "from_labels": ["item"],
+            "to_labels": ["donor"]
+        },
+        {
+            "relationship_type": "材料术语",
+            "from_labels": ["item"],
+            "to_labels": ["glossary"]
+        },
+        {
+            "relationship_type": "尺寸",
+            "from_labels": ["item"],
+            "to_labels": ["measurement"]
+        },
+        {
+            "relationship_type": "时期",
+            "from_labels": ["item"],
+            "to_labels": ["period"]
+        },
+        {
+            "relationship_type": "博物馆",
+            "from_labels": ["item"],
+            "to_labels": ["museum"]
+        },
+        {
+            "relationship_type": "图片",
+            "from_labels": ["item"],
+            "to_labels": ["images"]
+        },
+        {
+            "relationship_type": "名称",
+            "from_labels": ["item"],
+            "to_labels": ["title"]
+        },
+        {
+            "relationship_type": "制作时间",
+            "from_labels": ["item"],
+            "to_labels": ["date"]
+        },
+        {
+            "relationship_type": "描述",
+            "from_labels": ["item"],
+            "to_labels": ["description"]
+        },
+        {
+            "relationship_type": "创作者",
+            "from_labels": ["item"],
+            "to_labels": ["artist"]
+        },
+        {
+            "relationship_type": "题跋",
+            "from_labels": ["item"],
+            "to_labels": ["inscription"]
+        }
+    ]
+}
